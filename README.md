@@ -1,2 +1,1 @@
-# data-drift-demo
-Data Drift Demo
+# Data Drift Demo
