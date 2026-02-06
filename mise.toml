@@ -1,3 +1,6 @@
 [tools]
 python = "3.14.0"
 uv = "0.10.0"
+
+[tasks.main]
+run = "uv run python main.py"
