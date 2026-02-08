@@ -6,3 +6,6 @@ run = "uv sync"
 
 [tasks.main]
 run = "uv run python main.py"
+
+[tasks.export]
+run = "uv export --format requirements.txt --output-file requirements.txt"
