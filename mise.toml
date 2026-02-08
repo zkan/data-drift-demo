@@ -9,3 +9,6 @@ run = "uv run python main.py"
 
 [tasks.export]
 run = "uv export --format requirements.txt --output-file requirements.txt"
+
+[tasks.server]
+run = "uv run python -m http.server 3000"
